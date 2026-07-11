@@ -63,12 +63,19 @@ streamlit run app.py
 ---
 
 ## 📁 Structure
+
 pdf-rag-tool/
+
 ├── app.py               # Streamlit UI
+
 ├── ingestion.py          # PDF loading + chunking
+
 ├── embeddings_store.py    # Embeddings + FAISS index
+
 ├── rag_chain.py           # Retrieval + Claude generation
+
 └── requirements.txt
+
 ---
 
 ## 🗺️ Roadmap
